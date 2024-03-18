@@ -1,0 +1,44 @@
+/*初始化*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	display: flex;/*弹性布局*/
+	align-items: center;/*居中*/
+	width: 100%;/*宽100%*/
+	height: 100vh;/*高100vh*/
+	background: linear-gradient(200deg,#e3c5eb,#a9c1ed);/*颜色渐变紫*/
+}
+.middle{
+	width: 100%;/*宽100%*/
+}
+.middle ul{
+	display: flex;/*弹性布局*/
+	justify-content: space-between;/*两边对齐*/
+	width: 75%;/*宽75%*/
+	margin: auto;/*居中*/
+}
+.middle ul li{
+	list-style: none;/*去掉前面小点点*/
+	width: 40%;/*宽40%*/
+	background: white;/*颜色设置为白色*/
+	border: 1px solid #FFFFFF;/*边框宽度和颜色*/
+	border-radius: 15px;/*边框弧度*/
+	box-shadow: 2px 3px 5px #ccc;/*边框阴影*/
+}
+.middle ul li a{
+	display: flex;/*弹性布局*/
+	width: 100%;/*宽度100%*/
+	height: 250px;/*高度120px*/
+	align-items: center;/*居中*/
+	flex-wrap: wrap;/*弹性布局自动换行*/
+	text-decoration: none;/*去掉a标签的下划线*/
+	color: plum;/*颜色设置为紫色*/
+	justify-content: center;/*居中*/
+}
+.middle ul li a span{
+	display: block;/*变成快捷元素*/
+	width: 100%;/*宽度100%*/
+	text-align: center;/*居中*/
+}

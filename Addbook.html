@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>添加图书</title>
+		<link rel="stylesheet" type="text/css" href="css/guanlidenglu.css"/>
+	</head>
+	<body>
+		<form action="Addbook.php" method="post">
+		<div class="container">
+        <div class="tit">添加图书</div>
+        <input type="text" placeholder="图书所在类" name="book_class">
+		<input type="text" placeholder="图书名称" name="book_name">
+		<input type="text" placeholder="作者" name="writer">
+		<input type="text" placeholder="图书数量" name="book_count">
+        <button>添加</button>
+        <span><a href="tushuzengshanchagai.php">取消添加</a></span>
+        <div class="msg" style="display: none;" id="msg">	
+        </div>
+		</form>
+    </div>
+	</body>
+</html>
